@@ -9,7 +9,7 @@ from sqlalchemy import Engine, create_engine, text
 
 TEST_DATABASE_URL = os.environ.get(
     "TEST_DATABASE_URL",
-    "postgresql+psycopg://elsakka:elsakka@localhost:5433/elsakka_test",
+    "postgresql+psycopg://maskan:maskan@localhost:5433/maskan_test",
 )
 
 # Must be set before app settings are first read.

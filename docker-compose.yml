@@ -3,9 +3,9 @@ services:
   db:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-elsakka}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-elsakka}
-      POSTGRES_DB: ${POSTGRES_DB:-elsakka}
+      POSTGRES_USER: ${POSTGRES_USER:-maskan}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-maskan}
+      POSTGRES_DB: ${POSTGRES_DB:-maskan}
     ports:
       - "${POSTGRES_PORT:-5433}:5432"
     volumes:

@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     environment: Environment = "local"
     debug: bool = False
     secret_key: SecretStr = SecretStr(SECRET_KEY_PLACEHOLDER)
-    database_url: str = "postgresql+psycopg://elsakka:elsakka@localhost:5433/elsakka"
+    database_url: str = "postgresql+psycopg://maskan:maskan@localhost:5433/maskan"
     cors_origins: Annotated[list[str], NoDecode] = Field(
         default_factory=lambda: ["http://localhost:3000"]
     )

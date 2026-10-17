@@ -1,5 +1,5 @@
 /**
- * ElSakka design tokens for mobile. Mirrors frontend/src/app/globals.css exactly
+ * Maskan design tokens for mobile. Mirrors frontend/src/app/globals.css exactly
  * (specs/05-ui-ux-design-system.md §2). Screens must use these, never raw hex.
  */
 export const colors = {

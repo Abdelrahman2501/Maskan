@@ -30,7 +30,7 @@ export type Course = {
 export const COURSES: Course[] = [
   {
     id: "c1",
-    title: { en: "Welcome to ElSakka", ar: "مرحبًا بك في السقا" },
+    title: { en: "Welcome to Maskan", ar: "مرحبًا بك في مسكن" },
     description: {
       en: "How the agency works, our standards, and what we expect from every agent.",
       ar: "كيف تعمل الوكالة، ومعاييرنا، وما نتوقعه من كل وكيل.",
@@ -60,7 +60,7 @@ export const COURSES: Course[] = [
   },
   {
     id: "c4",
-    title: { en: "Using the ElSakka app", ar: "استخدام تطبيق السقا" },
+    title: { en: "Using the Maskan app", ar: "استخدام تطبيق مسكن" },
     description: {
       en: "Managing your leads, notes, and the property catalogue day to day.",
       ar: "إدارة العملاء المحتملين والملاحظات وكتالوج العقارات يوميًا.",
@@ -134,7 +134,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     text: { en: "Where should you record what happened on a client call?", ar: "أين يجب تسجيل ما حدث في مكالمة العميل؟" },
     options: [
       { en: "In a personal notebook", ar: "في دفتر شخصي" },
-      { en: "As a note on the lead in the ElSakka app", ar: "كملاحظة على العميل في تطبيق السقا" },
+      { en: "As a note on the lead in the Maskan app", ar: "كملاحظة على العميل في تطبيق مسكن" },
       { en: "Nowhere", ar: "لا داعي للتسجيل" },
       { en: "In a WhatsApp group", ar: "في مجموعة واتساب" },
     ],
@@ -203,7 +203,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
   },
   {
     id: "q10",
-    text: { en: "Who assigns leads to agents at ElSakka?", ar: "من يعيّن العملاء المحتملين للوكلاء في السقا؟" },
+    text: { en: "Who assigns leads to agents at Maskan?", ar: "من يعيّن العملاء المحتملين للوكلاء في مسكن؟" },
     options: [
       { en: "Agents choose their own", ar: "الوكلاء يختارون بأنفسهم" },
       { en: "An authorized sales manager", ar: "مدير مبيعات مفوّض" },

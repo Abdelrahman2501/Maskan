@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
- * ElSakka design tokens — the single source of truth (PLAT-007).
+ * Maskan design tokens — the single source of truth (PLAT-007).
  * See specs/05-ui-ux-design-system.md. Components must use these tokens
  * (e.g. bg-navy, text-ink-muted, border-border) and never raw hex values.
  * `npm run lint:tokens` enforces this outside this file.

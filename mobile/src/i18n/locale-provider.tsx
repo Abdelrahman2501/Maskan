@@ -6,7 +6,7 @@ import { storage } from "@/lib/storage";
 import i18n from "./index";
 import { INTL_LOCALE, isLanguage, RTL_LANGUAGES, type Language } from "./languages";
 
-const STORAGE_KEY = "elsakka.language";
+const STORAGE_KEY = "maskan.language";
 
 type LocaleContextValue = {
   language: Language;

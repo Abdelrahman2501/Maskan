@@ -5,7 +5,7 @@ import { Icon, Text } from "@/components/ui";
 import { useLocale } from "@/i18n/locale-provider";
 import { colors, radius, spacing } from "@/theme/tokens";
 
-/** Placeholder wordmark until the client supplies a brand kit (Q-23). */
+/** Maskan wordmark (placeholder house mark until a final logo is designed). */
 export function Logo({ tone = "dark", size = "md" }: { tone?: "dark" | "light"; size?: "md" | "lg" }) {
   const { t } = useTranslation();
   const light = tone === "light";
@@ -13,7 +13,7 @@ export function Logo({ tone = "dark", size = "md" }: { tone?: "dark" | "light"; 
   return (
     <View style={styles.row}>
       <View style={[styles.mark, { width: box, height: box, backgroundColor: light ? colors.white : colors.navy }]}>
-        <Icon name="business" size={box * 0.5} color={light ? "navy" : "white"} />
+        <Icon name="home" size={box * 0.5} color={light ? "navy" : "white"} />
       </View>
       <Text variant={size === "lg" ? "h1" : "h3"} weight="bold" color={light ? "white" : "navy"}>
         {t("brand")}

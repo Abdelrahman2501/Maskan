@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Product | ElSakka |
+| Product | Maskan |
 | Type | Virtual real estate agency platform: native mobile app (iOS/Android) for applicants and agents, web admin dashboard (ADR-0003) |
 | Initial market | Egypt — New Cairo, extensible to other locations |
 | Phase | Phase 1 (approx. 12 weeks, EGP 240,000 development budget, before CR-001) |
@@ -11,7 +11,7 @@
 
 ## 1. Problem
 
-ElSakka recruits independent real estate agents. Today, recruiting, verifying, training, and equipping those agents with property information and leads is manual. This is slow, hard to audit, and inconsistent.
+Maskan recruits independent real estate agents. Today, recruiting, verifying, training, and equipping those agents with property information and leads is manual. This is slow, hard to audit, and inconsistent.
 
 ## 2. Solution
 

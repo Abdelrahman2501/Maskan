@@ -4,7 +4,7 @@ Status: **Draft v0.1**
 
 ## 1. Model
 
-ElSakka uses two independent dimensions. Keeping them separate prevents contradictory states (for example, a "trainee" role that no longer matches the applicant's real stage).
+Maskan uses two independent dimensions. Keeping them separate prevents contradictory states (for example, a "trainee" role that no longer matches the applicant's real stage).
 
 1. **Staff roles (RBAC).** Assigned by a Super Admin. Each role grants a set of named permissions. A user may hold several staff roles.
    `super_admin`, `recruiter`, `training_admin`, `sales_manager`, `property_manager`

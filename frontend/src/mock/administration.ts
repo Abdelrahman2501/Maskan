@@ -18,11 +18,11 @@ export type AdminUser = {
 };
 
 export const USERS: AdminUser[] = [
-  { id: "u-nour", name: "Nour Salem", email: "nour.salem@elsakka.example", type: "staff", roles: ["super_admin", "sales_manager"], status: "active", lastLoginAt: "2026-10-17T07:55:00Z" },
-  { id: "u-laila", name: "Laila Mahmoud", email: "laila.mahmoud@elsakka.example", type: "staff", roles: ["training_admin"], status: "active", lastLoginAt: "2026-10-16T16:20:00Z" },
-  { id: "u-tarek", name: "Tarek Fouad", email: "tarek.fouad@elsakka.example", type: "staff", roles: ["recruiter"], status: "active", lastLoginAt: "2026-10-17T08:40:00Z" },
-  { id: "u-dina", name: "Dina Wael", email: "dina.wael@elsakka.example", type: "staff", roles: ["property_manager"], status: "active", lastLoginAt: "2026-10-15T11:05:00Z" },
-  { id: "u-hesham", name: "Hesham Adly", email: "hesham.adly@elsakka.example", type: "staff", roles: ["recruiter"], status: "suspended", lastLoginAt: "2026-08-30T09:10:00Z" },
+  { id: "u-nour", name: "Nour Salem", email: "nour.salem@maskan.example", type: "staff", roles: ["super_admin", "sales_manager"], status: "active", lastLoginAt: "2026-10-17T07:55:00Z" },
+  { id: "u-laila", name: "Laila Mahmoud", email: "laila.mahmoud@maskan.example", type: "staff", roles: ["training_admin"], status: "active", lastLoginAt: "2026-10-16T16:20:00Z" },
+  { id: "u-tarek", name: "Tarek Fouad", email: "tarek.fouad@maskan.example", type: "staff", roles: ["recruiter"], status: "active", lastLoginAt: "2026-10-17T08:40:00Z" },
+  { id: "u-dina", name: "Dina Wael", email: "dina.wael@maskan.example", type: "staff", roles: ["property_manager"], status: "active", lastLoginAt: "2026-10-15T11:05:00Z" },
+  { id: "u-hesham", name: "Hesham Adly", email: "hesham.adly@maskan.example", type: "staff", roles: ["recruiter"], status: "suspended", lastLoginAt: "2026-08-30T09:10:00Z" },
   ...AGENTS.map<AdminUser>((a, i) => ({
     id: `u-${a.id}`,
     name: a.name,

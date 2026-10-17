@@ -21,11 +21,11 @@ const plexArabic = IBM_Plex_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: {
-    default: "ElSakka — Real Estate Agency",
-    template: "%s · ElSakka",
+    default: "Maskan — Real Estate Agency",
+    template: "%s · Maskan",
   },
   description:
-    "Join ElSakka, a professional virtual real estate agency in New Cairo. Get verified, trained, and connected to premium properties and qualified leads.",
+    "Join Maskan, a professional virtual real estate agency in New Cairo. Get verified, trained, and connected to premium properties and qualified leads.",
 };
 
 export const viewport: Viewport = {

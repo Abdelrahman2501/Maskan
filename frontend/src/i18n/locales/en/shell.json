@@ -60,12 +60,12 @@
   },
   "login": {
     "title": "Staff sign in",
-    "subtitle": "For ElSakka team members. Agents use the mobile app.",
+    "subtitle": "For Maskan team members. Agents use the mobile app.",
     "email": "Work email",
     "password": "Password",
     "submit": "Sign in",
     "forgot": "Forgot password?",
-    "appHint": "Are you an agent? Download the ElSakka app.",
+    "appHint": "Are you an agent? Download the Maskan app.",
     "skip": "Continue without signing in (prototype)"
   },
   "dashboard": {

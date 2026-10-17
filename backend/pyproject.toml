@@ -1,7 +1,7 @@
 [project]
-name = "elsakka-backend"
+name = "maskan-backend"
 version = "0.1.0"
-description = "ElSakka platform API"
+description = "Maskan platform API"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115,<1.0",

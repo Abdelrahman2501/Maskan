@@ -1,6 +1,6 @@
-# ElSakka
+# Maskan
 
-ElSakka is a virtual real estate agency platform for Egypt. It recruits, verifies, trains, and qualifies real estate agents, then gives qualified agents a property catalogue and manually assigned leads.
+Maskan is a virtual real estate agency platform for Egypt. It recruits, verifies, trains, and qualifies real estate agents, then gives qualified agents a property catalogue and manually assigned leads.
 
 - **Specifications:** [`specs/`](specs/00-product-overview.md) (start with `00-product-overview.md`)
 - **Current status:** [`specs/implementation-status.md`](specs/implementation-status.md)
@@ -24,7 +24,7 @@ ElSakka is a virtual real estate agency platform for Egypt. It recruits, verifie
 # 1. Environment
 cp .env.example .env            # placeholders are fine for local development
 
-# 2. Database (PostgreSQL on localhost:5433; also creates the elsakka_test database)
+# 2. Database (PostgreSQL on localhost:5433; also creates the maskan_test database)
 docker compose up -d db
 
 # 3. Backend
@@ -57,7 +57,7 @@ npm run check      # ESLint + design-token lint + TypeScript + Vitest
 npm run build
 ```
 
-Integration tests use the `elsakka_test` database. Override it with `TEST_DATABASE_URL`.
+Integration tests use the `maskan_test` database. Override it with `TEST_DATABASE_URL`.
 
 ## Database migrations
 

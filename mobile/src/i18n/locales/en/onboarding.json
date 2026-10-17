@@ -31,7 +31,7 @@
     "retake": "Retake",
     "formats": "Accepted formats: JPEG, PNG or WebP · up to 8 MB per photo",
     "privacyTitle": "Your documents stay private",
-    "privacyBody": "Documents are stored privately and encrypted. Only authorized ElSakka reviewers can see them, and only to verify your identity.",
+    "privacyBody": "Documents are stored privately and encrypted. Only authorized Maskan reviewers can see them, and only to verify your identity.",
     "progress": "{{count}} of 3 photos captured",
     "submit": "Submit for verification"
   },
@@ -129,10 +129,10 @@
     },
     "denied": {
       "title": "Camera access is turned off",
-      "body": "To record your interview, ElSakka needs access to your camera and microphone.",
+      "body": "To record your interview, Maskan needs access to your camera and microphone.",
       "stepsTitle": "How to enable it",
       "step1": "Open your phone's Settings",
-      "step2": "Go to Apps → ElSakka → Permissions",
+      "step2": "Go to Apps → Maskan → Permissions",
       "step3": "Allow Camera and Microphone, then come back here",
       "openSettings": "Open settings",
       "tryAgain": "I've enabled it — try again"
@@ -147,7 +147,7 @@
     "next": {
       "review": "A recruiter watches your interview and reviews your application.",
       "decision": "You'll receive a decision, usually within 2–3 business days.",
-      "training": "If accepted, you'll get immediate access to the ElSakka training program."
+      "training": "If accepted, you'll get immediate access to the Maskan training program."
     },
     "notify": "We'll notify you on WhatsApp and in the app as soon as a decision is made.",
     "simulate": {
@@ -160,12 +160,12 @@
     "accepted": {
       "eyebrow": "Congratulations, {{name}}",
       "title": "You passed the first step",
-      "body": "Our recruitment team has approved your application. You're now invited to the ElSakka training program.",
+      "body": "Our recruitment team has approved your application. You're now invited to the Maskan training program.",
       "nextTitle": "Up next",
       "next": {
         "courses": "Watch short training courses at your own pace",
         "quiz": "Pass the final quiz to qualify",
-        "agent": "Start working as a qualified ElSakka agent"
+        "agent": "Start working as a qualified Maskan agent"
       },
       "continue": "Continue to training"
     },
@@ -173,7 +173,7 @@
       "title": "Thank you for applying",
       "body": "We appreciate the time you invested in your application. After careful review, you are not eligible to continue at this time.",
       "note": "This decision reflects our current requirements and is not a judgment of your abilities. We wish you every success.",
-      "contact": "If you have questions, contact us at careers@elsakka.example.",
+      "contact": "If you have questions, contact us at careers@maskan.example.",
       "home": "Back to home"
     }
   }

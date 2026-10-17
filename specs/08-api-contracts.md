@@ -6,7 +6,7 @@ Status: **Draft v0.1**. FastAPI's generated OpenAPI (`/api/v1/openapi.json`, doc
 
 - Base path `/api/v1`. JSON only (`application/json`), except binary uploads, which go **directly to storage via pre-signed URLs**.
 - Field names are `snake_case`. Timestamps are ISO 8601 UTC (`2026-10-17T09:30:00Z`). Money is `{ "amount": "4500000.00", "currency": "EGP" }`, with the amount as a **string** to avoid float rounding.
-- Auth uses the session cookie (`elsakka_session`). State-changing methods (POST/PUT/PATCH/DELETE) require the `X-CSRF-Token` header to match the `elsakka_csrf` cookie.
+- Auth uses the session cookie (`maskan_session`). State-changing methods (POST/PUT/PATCH/DELETE) require the `X-CSRF-Token` header to match the `maskan_csrf` cookie.
 - Every response carries `X-Request-ID`.
 
 ## 2. Error envelope (PLAT-004)

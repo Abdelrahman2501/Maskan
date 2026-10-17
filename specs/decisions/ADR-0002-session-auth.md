@@ -17,7 +17,7 @@ Authentication must be revocable (suspension, role changes, logout everywhere). 
 
 ## Decision
 
-Use opaque sessions: a 256-bit random token in the `elsakka_session` cookie (`HttpOnly; Secure; SameSite=Lax; Path=/`). The `sessions` table stores SHA-256(token). CSRF uses a double-submit token. Sessions rotate on login and privilege change.
+Use opaque sessions: a 256-bit random token in the `maskan_session` cookie (`HttpOnly; Secure; SameSite=Lax; Path=/`). The `sessions` table stores SHA-256(token). CSRF uses a double-submit token. Sessions rotate on login and privilege change.
 
 ## Consequences
 

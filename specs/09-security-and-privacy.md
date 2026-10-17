@@ -2,7 +2,7 @@
 
 Status: **Draft v0.1**
 
-ElSakka processes Egyptian national ID images, personal photos, phone numbers, and interview recordings. All of these are **sensitive personal data**.
+Maskan processes Egyptian national ID images, personal photos, phone numbers, and interview recordings. All of these are **sensitive personal data**.
 
 > ⚠️ Security controls do not by themselves equal legal compliance. Before launch, the client should obtain legal review of obligations under Egypt's Personal Data Protection Law (Law No. 151 of 2020) and its executive regulations, including licensing/registration, consent wording, cross-border transfer (relevant if storage or OCR providers process data outside Egypt), and retention. ❓Q-19
 
@@ -13,7 +13,7 @@ ElSakka processes Egyptian national ID images, personal photos, phone numbers, a
 | SEC-001 | HTTPS everywhere | TLS terminated at the platform/proxy. HSTS in production. |
 | SEC-002 | Password hashing | Argon2id (`argon2-cffi`), parameters reviewed yearly. |
 | SEC-003 | Sessions | Opaque 256-bit token, SHA-256 hash stored. `HttpOnly; Secure; SameSite=Lax`. Idle timeout 7 days, absolute 30 days (proposed). Rotated on login and privilege change. Revocable. (ADR-0002) |
-| SEC-004 | CSRF | Double-submit token (`elsakka_csrf` cookie + `X-CSRF-Token` header) on state-changing requests, plus a `SameSite=Lax` cookie. |
+| SEC-004 | CSRF | Double-submit token (`maskan_csrf` cookie + `X-CSRF-Token` header) on state-changing requests, plus a `SameSite=Lax` cookie. |
 | SEC-005 | Input validation | Pydantic schemas on every input, with explicit max lengths. Zod mirrors them in the UI. |
 | SEC-006 | SQL injection | SQLAlchemy parameterized queries only. Raw SQL is forbidden outside migrations. |
 | SEC-007 | XSS | React escaping. No `dangerouslySetInnerHTML` on user content. CSP header in production. |

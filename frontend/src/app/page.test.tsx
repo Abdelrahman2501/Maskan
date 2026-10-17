@@ -24,7 +24,7 @@ describe("Landing page", () => {
 
   it("links to the app download section and staff sign-in", () => {
     renderLanding();
-    expect(screen.getByRole("link", { name: /get the elsakka app/i })).toHaveAttribute("href", "#download");
+    expect(screen.getByRole("link", { name: /get the maskan app/i })).toHaveAttribute("href", "#download");
     expect(screen.getByRole("link", { name: /staff sign in/i })).toHaveAttribute("href", "/login");
   });
 

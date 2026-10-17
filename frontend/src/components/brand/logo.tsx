@@ -1,11 +1,11 @@
 "use client";
 
-import { Building2 } from "lucide-react";
+import { House } from "lucide-react";
 
 import { useT } from "@/i18n/use-t";
 import { cn } from "@/lib/utils";
 
-/** Placeholder wordmark until the client supplies a brand kit (Q-23). */
+/** Maskan wordmark (placeholder house mark until a final logo is designed). */
 export function Logo({
   tone = "dark",
   iconOnly = false,
@@ -31,7 +31,7 @@ export function Logo({
         )}
         aria-hidden="true"
       >
-        <Building2 className="size-4.5" />
+        <House className="size-4.5" />
       </span>
       {iconOnly ? <span className="sr-only">{t("brand")}</span> : t("brand")}
     </span>

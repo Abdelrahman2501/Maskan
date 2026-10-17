@@ -1,4 +1,4 @@
-# ElSakka — Claude Code project instructions
+# Maskan — Claude Code project instructions
 
 Virtual real estate agency platform (Egypt, New Cairo first): recruit → verify → interview → train → qualify agents, then give them a property catalogue and manually assigned leads. Phase 1 has a fixed scope and budget.
 

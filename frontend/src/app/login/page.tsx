@@ -17,7 +17,7 @@ export default function StaffLoginPage() {
   const t = useT("shell");
   const tc = useT();
   const router = useRouter();
-  const [email, setEmail] = useState("nour.salem@elsakka.example");
+  const [email, setEmail] = useState("nour.salem@maskan.example");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);

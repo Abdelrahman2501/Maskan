@@ -34,7 +34,7 @@
       "exhaustedBody": "You've used all your quiz attempts. Our training team will contact you about next steps.",
       "viewResult": "View result",
       "passedTitle": "Quiz passed",
-      "passedBody": "You're a qualified ElSakka agent.",
+      "passedBody": "You're a qualified Maskan agent.",
       "openQualified": "Continue"
     }
   },
@@ -129,7 +129,7 @@
   "qualified": {
     "badge": "Qualified agent",
     "title": "Welcome to the team",
-    "body": "You've completed every step. Your ElSakka workspace is ready.",
+    "body": "You've completed every step. Your Maskan workspace is ready.",
     "qualifiedOn": "Qualified on {{date}}",
     "unlockedTitle": "Now unlocked",
     "unlocked": {

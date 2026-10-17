@@ -21,14 +21,14 @@ type AdminContextValue = {
 const AdminContext = createContext<AdminContextValue | null>(null);
 
 const isRole = (v: unknown): v is Role => typeof v === "string" && (ROLES as readonly string[]).includes(v);
-const useStoredRole = createPersistedStore<Role>("elsakka.prototype.role", "super_admin", isRole);
+const useStoredRole = createPersistedStore<Role>("maskan.prototype.role", "super_admin", isRole);
 
 export function AdminProvider({ children }: { children: ReactNode }) {
   const [role, setRole] = useStoredRole();
 
   const value = useMemo<AdminContextValue>(
     () => ({
-      user: { name: "Nour Salem", email: "nour.salem@elsakka.example" },
+      user: { name: "Nour Salem", email: "nour.salem@maskan.example" },
       role,
       setRole,
       can: (permission) => ROLE_PERMISSIONS[role].includes(permission),

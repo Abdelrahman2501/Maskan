@@ -17,7 +17,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     show_docs = settings.environment != "production"
     app = FastAPI(
-        title="ElSakka API",
+        title="Maskan API",
         version=__version__,
         debug=settings.debug,
         openapi_url=f"{API_PREFIX}/openapi.json" if show_docs else None,

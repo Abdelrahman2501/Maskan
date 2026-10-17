@@ -1,19 +1,19 @@
 {
   "expo": {
-    "name": "ElSakka",
-    "slug": "elsakka",
+    "name": "Maskan",
+    "slug": "maskan",
     "version": "0.1.0",
-    "scheme": "elsakka",
+    "scheme": "maskan",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#07172B",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.elsakka.agent"
+      "bundleIdentifier": "com.maskan.agent"
     },
     "android": {
-      "package": "com.elsakka.agent",
+      "package": "com.maskan.agent",
       "adaptiveIcon": {
         "backgroundColor": "#0B1F3A",
         "foregroundImage": "./assets/android-icon-foreground.png",

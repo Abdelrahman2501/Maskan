@@ -21,7 +21,7 @@ const FALLBACK: LocaleContextValue = {
 };
 
 const LocaleContext = createContext<LocaleContextValue>(FALLBACK);
-const useStoredLanguage = createPersistedStore<Language>("elsakka.language", "en", isLanguage);
+const useStoredLanguage = createPersistedStore<Language>("maskan.language", "en", isLanguage);
 
 /**
  * Client-side language state (prototype). Persists the choice and keeps
