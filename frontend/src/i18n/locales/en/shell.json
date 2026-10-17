@@ -1,0 +1,106 @@
+{
+  "adminTitle": "Admin",
+  "groups": {
+    "overview": "Overview",
+    "recruitment": "Recruitment",
+    "training": "Training",
+    "properties": "Properties",
+    "sales": "Sales",
+    "administration": "Administration"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "applicants": "Applicants",
+    "identityReviews": "Identity reviews",
+    "interviews": "Interviews",
+    "decisions": "Application decisions",
+    "courses": "Courses",
+    "courseVideos": "Course videos",
+    "questionBank": "Quiz question bank",
+    "quizConfig": "Quiz configuration",
+    "attempts": "Attempts & results",
+    "locations": "Locations",
+    "compounds": "Compounds / developments",
+    "propertyTypes": "Property types",
+    "unitModels": "Unit models",
+    "media": "Property media",
+    "pricing": "Pricing",
+    "leads": "Leads",
+    "assignments": "Lead assignments",
+    "assignmentHistory": "Assignment history",
+    "users": "Users",
+    "roles": "Roles & permissions",
+    "reports": "Reports",
+    "auditLogs": "Audit logs",
+    "settings": "System settings"
+  },
+  "roles": {
+    "super_admin": "Super admin",
+    "recruiter": "Recruiter",
+    "training_admin": "Training admin",
+    "sales_manager": "Sales manager",
+    "property_manager": "Property manager"
+  },
+  "header": {
+    "notifications": "Notifications",
+    "account": "Account",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar",
+    "openMenu": "Open menu",
+    "home": "Admin"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAll": "Mark all as read",
+    "items": {
+      "n1": "3 identity reviews are waiting for you",
+      "n2": "New interview submitted by Mona Samir",
+      "n3": "Quiz configuration changed by Laila Mahmoud"
+    }
+  },
+  "login": {
+    "title": "Staff sign in",
+    "subtitle": "For ElSakka team members. Agents use the mobile app.",
+    "email": "Work email",
+    "password": "Password",
+    "submit": "Sign in",
+    "forgot": "Forgot password?",
+    "appHint": "Are you an agent? Download the ElSakka app.",
+    "skip": "Continue without signing in (prototype)"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {{name}}. Here is what needs your attention today.",
+    "empty": "No data yet.",
+    "stats": {
+      "applicants": "Total applicants",
+      "pendingIdentity": "Pending identity reviews",
+      "pendingInterviews": "Pending interviews",
+      "inTraining": "Applicants in training",
+      "qualified": "Qualified agents",
+      "activeCompounds": "Published developments",
+      "leads": "Total leads",
+      "unassigned": "Unassigned leads"
+    },
+    "funnel": {
+      "title": "Recruitment funnel",
+      "registered": "Registered",
+      "identityApproved": "Identity approved",
+      "interviewAccepted": "Interview accepted",
+      "qualified": "Qualified"
+    },
+    "activity": {
+      "title": "Recent activity",
+      "identity": "{{actor}} — identity {{decision}} for {{name}}",
+      "interview": "{{actor}} — interview {{decision}} for {{name}}",
+      "assignment": "{{actor}} assigned lead {{lead}} to {{agent}}"
+    },
+    "decisions": {
+      "approved": "approved",
+      "action_required": "sent back for resubmission",
+      "rejected": "rejected",
+      "accepted": "accepted",
+      "reopened": "reopened"
+    }
+  }
+}

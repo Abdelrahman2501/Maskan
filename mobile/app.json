@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "ElSakka",
+    "slug": "elsakka",
+    "version": "0.1.0",
+    "scheme": "elsakka",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#07172B",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.elsakka.agent"
+    },
+    "android": {
+      "package": "com.elsakka.agent",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1F3A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      [
+        "expo-localization",
+        {
+          "supportsRTL": false,
+          "forcesRTL": false,
+          "supportedLocales": ["en", "ar"]
+        }
+      ],
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#07172B",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "common": {
+    "results": "{{count}} results",
+    "auditedNote": "Changes are recorded in the audit log with your name, time and IP address.",
+    "discard": "Discard changes"
+  },
+  "users": {
+    "title": "Users",
+    "description": "{{count}} accounts — staff and agents. Suspended users are signed out of every session.",
+    "searchPlaceholder": "Search by name or email",
+    "empty": "No users yet",
+    "agentStage": "Agent (stage-based access)",
+    "never": "Never",
+    "filters": {
+      "type": "User type",
+      "allTypes": "All types",
+      "status": "Status",
+      "allStatuses": "All statuses"
+    },
+    "types": {
+      "staff": "Staff",
+      "agent": "Agent"
+    },
+    "statuses": {
+      "active": "Active",
+      "suspended": "Suspended"
+    },
+    "columns": {
+      "user": "User",
+      "type": "Type",
+      "roles": "Roles",
+      "status": "Status",
+      "lastLogin": "Last login"
+    },
+    "actions": {
+      "menu": "Actions for {{name}}",
+      "editRoles": "Edit roles",
+      "suspend": "Suspend",
+      "suspendLocked": "Can't suspend: last active super admin",
+      "reactivate": "Reactivate"
+    },
+    "lastSuperAdmin": {
+      "badge": "Last super admin",
+      "hint": "This is the only active super admin, so it can't be suspended or lose the super admin role.",
+      "roles": "The last active super admin must keep the super admin role.",
+      "notice": "There is only one active super admin. To protect access to the platform, that account can't be suspended or lose the super admin role until another super admin is added."
+    },
+    "editRoles": {
+      "title": "Edit roles — {{name}}",
+      "description": "A staff member can hold several roles. Permissions are the union of all their roles.",
+      "atLeastOne": "Select at least one role for a staff account.",
+      "saved": "Roles updated for {{name}}"
+    },
+    "suspend": {
+      "title": "Suspend {{name}}?",
+      "body": "They will be signed out everywhere and won't be able to sign in until reactivated. Their records are kept.",
+      "done": "{{name}} has been suspended"
+    },
+    "reactivate": {
+      "title": "Reactivate {{name}}?",
+      "body": "They will be able to sign in again with their existing roles and permissions.",
+      "done": "{{name}} has been reactivated"
+    }
+  },
+  "roles": {
+    "title": "Roles & permissions",
+    "description": "What each staff role can do. The backend enforces every permission; hiding a menu is only a convenience.",
+    "locked": "Locked",
+    "members": "Members: {{count}}",
+    "permissionCount": "{{count}} of {{total}} permissions",
+    "descriptions": {
+      "super_admin": "Full platform access, including users, roles, audit logs and system settings.",
+      "recruiter": "Reviews applicants, identity documents and interviews, and decides applications.",
+      "training_admin": "Manages courses, videos, the question bank and quiz configuration.",
+      "sales_manager": "Creates leads, assigns them to qualified agents and follows their progress.",
+      "property_manager": "Maintains the property catalogue: locations, compounds, unit models, media and prices."
+    },
+    "matrix": {
+      "title": "Permission matrix",
+      "hintEditable": "Click a cell to grant or revoke a permission. Super admin always holds every permission.",
+      "hintReadOnly": "Read-only view of which permissions each role grants.",
+      "permission": "Permission",
+      "audited": "Sensitive: every use is audited",
+      "granted": "{{role}} has {{permission}}",
+      "notGranted": "{{role}} does not have {{permission}}",
+      "pending": "{{count}} unsaved changes",
+      "superAdminNote": "Super admin is locked: it receives every permission explicitly, and the last active super admin can't be removed.",
+      "confirmTitle": "Save permission changes?",
+      "confirmBody": "{{count}} permission changes will apply to every member of the affected roles at their next request.",
+      "saved": "Role permissions updated"
+    }
+  },
+  "permissions": {
+    "applicants_read": "List and view applicants and applications",
+    "identity_review": "View ID documents and decide identity reviews",
+    "interviews_review": "Watch interviews and record decisions",
+    "applications_decide": "Accept or reject applications; reopen interviews",
+    "training_manage": "Create and edit courses and videos",
+    "quiz_manage": "Manage the question bank and quiz configuration",
+    "quiz_results_read": "View attempts and qualification records",
+    "properties_manage": "Manage locations, compounds, types, unit models and media",
+    "prices_manage": "Create and update prices",
+    "leads_manage": "Create and edit leads",
+    "leads_assign": "Assign and reassign leads",
+    "leads_read_all": "View all leads and assignment history",
+    "reports_read": "View reports and dashboard summaries",
+    "users_manage": "Manage user accounts and status",
+    "roles_manage": "Assign roles and edit role permissions",
+    "audit_read": "View audit logs",
+    "settings_manage": "Edit system settings"
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Recruitment, training, sales and catalogue figures for the selected period.",
+    "scoped": "Showing the reports available to the {{role}} role.",
+    "export": "Export",
+    "exportQueued": "Export queued — you'll be notified when the file is ready",
+    "emptyRange": "No activity in this period",
+    "footnote": "Sample figures for the prototype. Counts are computed from live data in the real platform.",
+    "range": {
+      "label": "Date range",
+      "today": "Today",
+      "7d": "Last 7 days",
+      "30d": "Last 30 days",
+      "90d": "Last 90 days",
+      "ytd": "Year to date"
+    },
+    "funnel": {
+      "title": "Recruitment funnel",
+      "description": "How many applicants reached each step.",
+      "ofPrevious": "{{pct}} of previous step",
+      "overall": "Overall conversion from registration to qualified agent: {{pct}}",
+      "steps": {
+        "registered": "Registered",
+        "phoneVerified": "Phone verified",
+        "identityApproved": "Identity approved",
+        "interviewAccepted": "Interview accepted",
+        "qualified": "Qualified"
+      }
+    },
+    "leads": {
+      "title": "Lead status distribution",
+      "description": "{{count}} leads by current status.",
+      "statuses": {
+        "new": "New",
+        "contacted": "Contacted",
+        "interested": "Interested",
+        "follow_up": "Follow-up",
+        "viewing_scheduled": "Viewing scheduled",
+        "converted": "Converted",
+        "not_interested": "Not interested",
+        "unreachable": "Unreachable"
+      }
+    },
+    "qualification": {
+      "title": "Qualification rate",
+      "description": "Share of quiz attempts that passed.",
+      "attempts": "Quiz attempts",
+      "passed": "Passed",
+      "failed": "Not passed"
+    },
+    "catalogue": {
+      "title": "Property catalogue",
+      "description": "Published catalogue records.",
+      "empty": "The catalogue is empty",
+      "items": {
+        "locations": "Locations",
+        "compounds": "Compounds",
+        "unitModels": "Unit models",
+        "prices": "Prices",
+        "media": "Media files"
+      }
+    }
+  },
+  "audit": {
+    "title": "Audit logs",
+    "description": "Append-only record of sensitive actions. Personal data is redacted.",
+    "empty": "No audit entries yet",
+    "appendOnly": "Audit entries can't be edited or deleted. Passwords, OTP codes and full national ID numbers are never stored here.",
+    "columns": {
+      "time": "Time",
+      "actor": "Actor",
+      "action": "Action",
+      "entity": "Entity",
+      "summary": "Summary",
+      "ip": "IP address"
+    },
+    "filters": {
+      "actor": "Actor",
+      "allActors": "All actors",
+      "action": "Action",
+      "allActions": "All actions",
+      "entity": "Entity",
+      "allEntities": "All entities",
+      "from": "From",
+      "to": "To",
+      "invalidRange": "The start date must be on or before the end date."
+    },
+    "actions": {
+      "identity_decided": "Identity decided",
+      "interview_decided": "Interview decided",
+      "application_decided": "Application decided",
+      "price_updated": "Price updated",
+      "lead_assigned": "Lead assigned",
+      "role_granted": "Role granted",
+      "role_revoked": "Role revoked",
+      "user_suspended": "User suspended",
+      "user_reactivated": "User reactivated",
+      "quiz_config_updated": "Quiz configuration updated",
+      "settings_updated": "Settings updated"
+    },
+    "entities": {
+      "application": "Application",
+      "identity_verification": "Identity verification",
+      "interview_submission": "Interview submission",
+      "lead": "Lead",
+      "quiz_config": "Quiz configuration",
+      "system_setting": "System setting",
+      "unit_price": "Unit price",
+      "user": "User"
+    },
+    "detail": {
+      "actionCode": "Action code",
+      "requestId": "Request ID",
+      "before": "Before",
+      "after": "After",
+      "none": "No value",
+      "redactionNote": "Values are redacted: sensitive fields are masked and national IDs show only the last 4 digits."
+    }
+  },
+  "settings": {
+    "title": "System settings",
+    "description": "Platform-wide limits for OTP, uploads, interviews, identity checks and data retention.",
+    "readOnly": "You can view these settings, but only a super admin can change them.",
+    "allowedRange": "Allowed: {{min}}–{{max}} {{unit}}.",
+    "fixErrors": "Fix the highlighted fields before saving",
+    "saved": "Settings saved ({{count}} changed)",
+    "unsaved": "{{count}} unsaved changes",
+    "lastUpdated": "Last updated by {{name}} · {{date}}",
+    "confirmTitle": "Save system settings?",
+    "confirmBody": "{{count}} settings will change for every user immediately.",
+    "changedTo": "changed to",
+    "units": {
+      "minutes": "minutes",
+      "seconds": "seconds",
+      "count": "times",
+      "mb": "MB",
+      "percent": "%",
+      "days": "days"
+    },
+    "errors": {
+      "range": "Enter a whole number from {{min}} to {{max}}.",
+      "typesRequired": "Enter at least one file type.",
+      "typesFormat": "Use MIME types separated by commas, for example image/jpeg, video/mp4.",
+      "cooldownVsExpiry": "The resend cooldown must be shorter than the OTP expiry."
+    },
+    "groups": {
+      "otp": {
+        "title": "Phone verification (OTP)",
+        "description": "Code lifetime and anti-abuse limits for SMS codes."
+      },
+      "uploads": {
+        "title": "Uploads",
+        "description": "Size and type limits checked before and after every upload."
+      },
+      "interview": {
+        "title": "Interview",
+        "description": "Recording limits for the video interview."
+      },
+      "identity": {
+        "title": "Identity verification",
+        "description": "Automatic OCR approval and resubmission rules."
+      },
+      "retention": {
+        "title": "Data retention",
+        "description": "How long sensitive files are kept after a decision. Pending legal confirmation."
+      }
+    },
+    "fields": {
+      "otpExpiryMinutes": {
+        "label": "Code expiry",
+        "hint": "How long a code stays valid."
+      },
+      "otpResendCooldownSeconds": {
+        "label": "Resend cooldown",
+        "hint": "Wait time before a new code can be requested."
+      },
+      "otpMaxSendsPerHour": {
+        "label": "Max sends per hour",
+        "hint": "Per phone number."
+      },
+      "otpMaxWrongAttempts": {
+        "label": "Max wrong attempts",
+        "hint": "After this, the code is invalidated."
+      },
+      "uploadMaxImageMb": {
+        "label": "Max image size",
+        "hint": "ID photos and selfies."
+      },
+      "uploadMaxVideoMb": {
+        "label": "Max video size",
+        "hint": "Interview and course videos."
+      },
+      "uploadAllowedTypes": {
+        "label": "Allowed file types",
+        "hint": "MIME types separated by commas. File contents are also checked on the server."
+      },
+      "interviewMaxDurationSeconds": {
+        "label": "Max interview duration",
+        "hint": "Recording stops automatically at this length."
+      },
+      "identityOcrThresholdPct": {
+        "label": "OCR auto-approve confidence",
+        "hint": "Below this, the review goes to a recruiter."
+      },
+      "identityResubmissionLimit": {
+        "label": "Resubmission limit",
+        "hint": "How many times an applicant can resubmit documents."
+      },
+      "retentionIdImagesDays": {
+        "label": "ID images and selfies",
+        "hint": "Days kept after the identity decision."
+      },
+      "retentionInterviewVideosDays": {
+        "label": "Interview videos",
+        "hint": "Days kept after the decision."
+      }
+    }
+  }
+}

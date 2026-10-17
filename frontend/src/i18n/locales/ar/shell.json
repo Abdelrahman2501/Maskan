@@ -1,0 +1,106 @@
+{
+  "adminTitle": "لوحة الإدارة",
+  "groups": {
+    "overview": "نظرة عامة",
+    "recruitment": "التوظيف",
+    "training": "التدريب",
+    "properties": "العقارات",
+    "sales": "المبيعات",
+    "administration": "الإدارة"
+  },
+  "nav": {
+    "dashboard": "لوحة المعلومات",
+    "applicants": "المتقدمون",
+    "identityReviews": "مراجعات الهوية",
+    "interviews": "المقابلات",
+    "decisions": "قرارات الطلبات",
+    "courses": "الدورات",
+    "courseVideos": "فيديوهات الدورات",
+    "questionBank": "بنك أسئلة الاختبار",
+    "quizConfig": "إعدادات الاختبار",
+    "attempts": "المحاولات والنتائج",
+    "locations": "المواقع",
+    "compounds": "الكمبوندات / المشروعات",
+    "propertyTypes": "أنواع العقارات",
+    "unitModels": "نماذج الوحدات",
+    "media": "وسائط العقارات",
+    "pricing": "الأسعار",
+    "leads": "العملاء المحتملون",
+    "assignments": "تعيين العملاء",
+    "assignmentHistory": "سجل التعيينات",
+    "users": "المستخدمون",
+    "roles": "الأدوار والصلاحيات",
+    "reports": "التقارير",
+    "auditLogs": "سجل التدقيق",
+    "settings": "إعدادات النظام"
+  },
+  "roles": {
+    "super_admin": "مسؤول أعلى",
+    "recruiter": "مسؤول توظيف",
+    "training_admin": "مسؤول تدريب",
+    "sales_manager": "مدير مبيعات",
+    "property_manager": "مدير عقارات"
+  },
+  "header": {
+    "notifications": "الإشعارات",
+    "account": "الحساب",
+    "collapse": "طي القائمة الجانبية",
+    "expand": "توسيع القائمة الجانبية",
+    "openMenu": "فتح القائمة",
+    "home": "الإدارة"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAll": "تعليم الكل كمقروء",
+    "items": {
+      "n1": "3 مراجعات هوية بانتظارك",
+      "n2": "مقابلة جديدة من منى سمير",
+      "n3": "قامت ليلى محمود بتغيير إعدادات الاختبار"
+    }
+  },
+  "login": {
+    "title": "دخول فريق العمل",
+    "subtitle": "مخصص لأعضاء فريق السقا. يستخدم الوكلاء تطبيق الموبايل.",
+    "email": "البريد الإلكتروني للعمل",
+    "password": "كلمة المرور",
+    "submit": "تسجيل الدخول",
+    "forgot": "نسيت كلمة المرور؟",
+    "appHint": "هل أنت وكيل؟ حمّل تطبيق السقا.",
+    "skip": "المتابعة بدون تسجيل الدخول (نموذج أولي)"
+  },
+  "dashboard": {
+    "title": "لوحة المعلومات",
+    "welcome": "مرحبًا بعودتك يا {{name}}. إليك ما يحتاج إلى انتباهك اليوم.",
+    "empty": "لا توجد بيانات بعد.",
+    "stats": {
+      "applicants": "إجمالي المتقدمين",
+      "pendingIdentity": "مراجعات هوية معلّقة",
+      "pendingInterviews": "مقابلات معلّقة",
+      "inTraining": "متقدمون في التدريب",
+      "qualified": "وكلاء معتمدون",
+      "activeCompounds": "مشروعات منشورة",
+      "leads": "إجمالي العملاء المحتملين",
+      "unassigned": "عملاء غير معيّنين"
+    },
+    "funnel": {
+      "title": "مسار التوظيف",
+      "registered": "مسجّلون",
+      "identityApproved": "تمت الموافقة على الهوية",
+      "interviewAccepted": "تم قبول المقابلة",
+      "qualified": "معتمدون"
+    },
+    "activity": {
+      "title": "آخر النشاطات",
+      "identity": "{{actor}} — {{decision}} الهوية لـ {{name}}",
+      "interview": "{{actor}} — {{decision}} المقابلة لـ {{name}}",
+      "assignment": "قام {{actor}} بتعيين العميل {{lead}} إلى {{agent}}"
+    },
+    "decisions": {
+      "approved": "وافق على",
+      "action_required": "طلب إعادة رفع",
+      "rejected": "رفض",
+      "accepted": "قبل",
+      "reopened": "أعاد فتح"
+    }
+  }
+}

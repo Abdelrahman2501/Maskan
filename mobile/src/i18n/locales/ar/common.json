@@ -1,0 +1,54 @@
+{
+  "brand": "السقا",
+  "tagline": "وكالة عقارية",
+  "actions": {
+    "back": "رجوع",
+    "continue": "متابعة",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "submit": "إرسال",
+    "retry": "حاول مرة أخرى",
+    "done": "تم",
+    "close": "إغلاق",
+    "seeAll": "عرض الكل",
+    "edit": "تعديل",
+    "next": "التالي",
+    "previous": "السابق",
+    "confirm": "تأكيد",
+    "logout": "تسجيل الخروج"
+  },
+  "language": {
+    "title": "اللغة",
+    "english": "English",
+    "arabic": "العربية",
+    "switchTo": "English"
+  },
+  "prototype": {
+    "label": "نموذج أولي · بيانات تجريبية",
+    "menuTitle": "قائمة النموذج الأولي",
+    "menuSubtitle": "انتقل إلى أي مرحلة من الرحلة. كل البيانات هنا تجريبية ولا يتم إرسال أي شيء.",
+    "jumpTo": "الانتقال إلى مرحلة",
+    "reset": "إعادة ضبط النموذج",
+    "stages": {
+      "guest": "الترحيب (غير مسجل)",
+      "phone_pending": "تأكيد رقم الهاتف",
+      "identity_pending": "مستندات الهوية",
+      "identity_processing": "معالجة الهوية",
+      "identity_review": "الهوية قيد المراجعة اليدوية",
+      "identity_action_required": "مطلوب إجراء للهوية",
+      "interview_pending": "المقابلة",
+      "interview_submitted": "تم إرسال المقابلة",
+      "rejected": "تم رفض الطلب",
+      "training": "التدريب",
+      "quiz_eligible": "الاختبار متاح",
+      "quiz_exhausted": "انتهت محاولات الاختبار",
+      "qualified": "وكيل معتمد"
+    }
+  },
+  "status": {
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما. حاول مرة أخرى.",
+    "offline": "أنت غير متصل. تحقق من الاتصال."
+  },
+  "currencyNote": "تُعرض الأسعار بالعملة التي حددها المطور. لا يوجد تحويل تلقائي."
+}

@@ -1,0 +1,55 @@
+{
+  "brand": "ElSakka",
+  "actions": {
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "archive": "Archive",
+    "edit": "Edit",
+    "create": "Create",
+    "add": "Add",
+    "view": "View",
+    "back": "Back",
+    "close": "Close",
+    "retry": "Try again",
+    "search": "Search",
+    "filter": "Filters",
+    "clear": "Clear",
+    "export": "Export",
+    "approve": "Approve",
+    "reject": "Reject",
+    "assign": "Assign",
+    "reassign": "Reassign",
+    "more": "More actions",
+    "logout": "Log out"
+  },
+  "table": {
+    "empty": "Nothing here yet",
+    "emptyFiltered": "No results match your filters",
+    "error": "We couldn't load this list.",
+    "rowsPerPage": "Rows per page",
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "previous": "Previous page",
+    "next": "Next page",
+    "actions": "Actions"
+  },
+  "states": {
+    "loading": "Loading…",
+    "saved": "Changes saved",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "requestId": "Reference: {{id}}",
+    "forbiddenTitle": "You don't have access to this page",
+    "forbiddenBody": "Your role doesn't include this module. Ask a super admin if you need access."
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": "العربية"
+  },
+  "prototype": {
+    "banner": "Prototype · sample data — nothing is saved",
+    "roleSwitcher": "View as role"
+  },
+  "currencyNote": "Prices are stored in their own currency. No automatic conversion."
+}

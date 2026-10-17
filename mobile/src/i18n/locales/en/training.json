@@ -1,0 +1,145 @@
+{
+  "dashboard": {
+    "eyebrow": "Training",
+    "greeting": "Welcome, {{name}}",
+    "subtitle": "Watch every training video, then pass a short quiz to start working with clients.",
+    "overallTitle": "Your progress",
+    "overallVideos": "{{watched}} of {{total}} videos watched",
+    "overallPercent": "{{percent}}% complete",
+    "coursesTitle": "Courses",
+    "courseVideos": "Videos: {{count}}",
+    "courseCompleted": "Completed",
+    "courseInProgress": "In progress",
+    "courseNotStarted": "Not started",
+    "courseWatched": "{{watched}}/{{total}} watched",
+    "markAllWatched": "Mark all videos watched",
+    "quiz": {
+      "title": "Qualification quiz",
+      "lockedTitle": "Locked",
+      "lockedBody": "Watch at least 90% of every video to unlock the quiz.",
+      "missingTitle": "Still to watch",
+      "missingMore": "and {{count}} more",
+      "availableTitle": "Quiz available",
+      "availableBody": "You've completed the training. Take the quiz when you're ready.",
+      "rules": {
+        "questions": "{{count}} questions",
+        "passMark": "Pass mark {{percent}}%",
+        "attempts": "{{count}} attempts maximum",
+        "timer": "{{minutes}} minutes"
+      },
+      "attemptsUsed": "Attempts used: {{used}} of {{max}}",
+      "attemptsRemaining": "Remaining: {{count}}",
+      "start": "Start quiz",
+      "exhaustedTitle": "No attempts left",
+      "exhaustedBody": "You've used all your quiz attempts. Our training team will contact you about next steps.",
+      "viewResult": "View result",
+      "passedTitle": "Quiz passed",
+      "passedBody": "You're a qualified ElSakka agent.",
+      "openQualified": "Continue"
+    }
+  },
+  "course": {
+    "videosTitle": "Videos",
+    "summary": "Videos: {{count}} · {{duration}}",
+    "status": {
+      "watched": "Watched",
+      "inProgress": "In progress · {{percent}}%",
+      "notStarted": "Not started"
+    },
+    "notFound": "This course could not be found.",
+    "backToTraining": "Back to training"
+  },
+  "video": {
+    "title": "Training video",
+    "of": "Video {{index}} of {{total}}",
+    "play": "Play",
+    "pause": "Pause",
+    "replay": "Watch again",
+    "resumeFrom": "Resume from {{time}}",
+    "startOver": "Start from the beginning",
+    "completed": "Completed",
+    "watchedPercent": "{{percent}}% watched",
+    "completeHint": "Watch at least 90% of the video for it to count as completed.",
+    "simulatedNote": "Simulated player — playback runs at 10× speed for the demo.",
+    "next": "Next video",
+    "backToTraining": "Back to training",
+    "notFound": "This video could not be found."
+  },
+  "intro": {
+    "title": "Before you start",
+    "subtitle": "Read these instructions carefully. Once you start, the timer begins.",
+    "facts": {
+      "questions": "Questions",
+      "timeLimit": "Time limit",
+      "timeLimitValue": "{{minutes}} min",
+      "passMark": "Pass mark",
+      "attemptsLeft": "Attempts left"
+    },
+    "rulesTitle": "How the quiz works",
+    "rules": {
+      "single": "Each question has one correct answer.",
+      "autosave": "Your answers save automatically as you go.",
+      "timer": "The timer runs on our servers and keeps running if you leave the quiz.",
+      "noPause": "Closing or leaving the app does not pause the timer.",
+      "switching": "Please stay in the quiz until you submit. Switching apps or tabs is discouraged.",
+      "timeout": "When time runs out, your attempt is submitted automatically.",
+      "attempts": "Each started attempt counts toward your limit."
+    },
+    "start": "Start attempt",
+    "resume": "Resume attempt",
+    "resumeNote": "You have an attempt in progress. The timer is still running.",
+    "noAttempts": "You have no attempts remaining."
+  },
+  "quiz": {
+    "title": "Quiz",
+    "questionOf": "Question {{index}} of {{total}}",
+    "timeLeft": "Time left",
+    "saving": "Saving…",
+    "saved": "Answer saved",
+    "navigator": "Jump to question",
+    "submit": "Submit quiz",
+    "confirmTitle": "Submit your answers?",
+    "confirmUnanswered": "You have {{count}} unanswered questions. Unanswered questions are marked incorrect.",
+    "confirmAllAnswered": "All questions are answered. You can't change your answers after submitting.",
+    "confirmSubmit": "Submit now",
+    "keepWorking": "Keep working",
+    "timeUp": "Time's up",
+    "timeUpBody": "Submitting your answers…",
+    "warning": "Less than a minute left",
+    "optionLabel": "Option {{letter}}",
+    "letters": "ABCD"
+  },
+  "result": {
+    "score": "{{score}}/{{total}} · {{percent}}%",
+    "scoreLabel": "Your score",
+    "passMark": "Pass mark: {{percent}}%",
+    "passedTitle": "You're qualified!",
+    "passedBody": "Congratulations — you passed the qualification quiz.",
+    "continue": "Continue",
+    "failedTitle": "Not passed this time",
+    "failedBody": "You didn't reach the pass mark. Review the training and try again when you're ready.",
+    "attemptsRemaining": "Attempts remaining: {{count}}",
+    "reviewTraining": "Review training",
+    "tryAgain": "Try again",
+    "exhaustedTitle": "All attempts used",
+    "exhaustedBody": "You've used all of your quiz attempts. Thank you for completing the training — our training team will contact you about the next steps.",
+    "backToTraining": "Back to training",
+    "noAnswersNote": "For fairness, correct answers aren't shown."
+  },
+  "qualified": {
+    "badge": "Qualified agent",
+    "title": "Welcome to the team",
+    "body": "You've completed every step. Your ElSakka workspace is ready.",
+    "qualifiedOn": "Qualified on {{date}}",
+    "unlockedTitle": "Now unlocked",
+    "unlocked": {
+      "catalogue": "Property catalogue",
+      "catalogueBody": "Compounds, unit models and current prices.",
+      "leads": "Assigned leads",
+      "leadsBody": "Clients assigned to you by your sales manager.",
+      "profile": "Your profile",
+      "profileBody": "Your details and account settings."
+    },
+    "open": "Open my workspace"
+  }
+}

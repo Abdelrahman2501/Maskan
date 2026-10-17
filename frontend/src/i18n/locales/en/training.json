@@ -1,0 +1,223 @@
+{
+  "breadcrumbs": {
+    "training": "Training",
+    "quiz": "Quiz"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published",
+    "archived": "Archived",
+    "all": "All statuses"
+  },
+  "fields": {
+    "titleEn": "Title (English)",
+    "titleAr": "Title (Arabic)",
+    "descriptionEn": "Description (English)",
+    "descriptionAr": "Description (Arabic)",
+    "status": "Status",
+    "course": "Course",
+    "durationMinutes": "Minutes",
+    "durationSeconds": "Seconds",
+    "duration": "Duration",
+    "source": "Video source",
+    "questionEn": "Question (English)",
+    "questionAr": "Question (Arabic)",
+    "optionEn": "Option {{n}} (English)",
+    "optionAr": "Option {{n}} (Arabic)",
+    "active": "Active"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "durationPositive": "Enter a duration longer than zero.",
+    "secondsRange": "Seconds must be between 0 and 59.",
+    "urlInvalid": "Enter a valid link starting with https://",
+    "fileRequired": "Choose a video file to upload.",
+    "correctRequired": "Mark exactly one option as the correct answer.",
+    "optionsRequired": "Fill in all four options in both languages.",
+    "integer": "Enter a whole number.",
+    "range": "Enter a value between {{min}} and {{max}}.",
+    "questionCountMax": "Only {{count}} active questions are available."
+  },
+  "courses": {
+    "title": "Courses",
+    "description": "Training courses agents complete before taking the quiz. Only published courses are visible to trainees.",
+    "create": "Create course",
+    "createTitle": "Create course",
+    "editTitle": "Edit course",
+    "dialogDescription": "Enter the title and description in both languages.",
+    "statusHint": "Draft courses are hidden from trainees.",
+    "searchPlaceholder": "Search courses",
+    "showArchived": "Archived",
+    "results": "{{count}} courses",
+    "empty": "No courses yet. Create the first course to start building the training.",
+    "videosCount": "{{count}} videos",
+    "restore": "Restore",
+    "columns": {
+      "order": "Order",
+      "title": "Course",
+      "videos": "Videos",
+      "duration": "Total duration",
+      "status": "Status"
+    },
+    "archive": {
+      "title": "Archive this course?",
+      "description": "“{{name}}” and its videos will be hidden from trainees. Completed progress is kept and you can restore the course later.",
+      "confirm": "Archive course"
+    },
+    "toast": {
+      "created": "Course created",
+      "updated": "Course updated",
+      "archived": "Course archived",
+      "restored": "Course restored"
+    }
+  },
+  "videos": {
+    "title": "Course videos",
+    "description": "Videos inside each course, in the order trainees watch them.",
+    "add": "Add video",
+    "addTitle": "Add video",
+    "editTitle": "Edit video",
+    "dialogDescription": "Upload a file or link to an externally hosted video.",
+    "allCourses": "All courses",
+    "searchPlaceholder": "Search videos",
+    "results": "{{count}} videos",
+    "empty": "No videos yet. Add the first video to a course.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "publish": "Publish",
+    "unpublish": "Move to draft",
+    "columns": {
+      "order": "Order",
+      "title": "Video",
+      "course": "Course",
+      "duration": "Duration",
+      "status": "Status"
+    },
+    "source": {
+      "upload": "Upload file",
+      "url": "External link",
+      "dropTitle": "Drag a video here or choose a file",
+      "dropHint": "MP4 or MOV, up to 2 GB. Files are stored privately (prototype: nothing is uploaded).",
+      "choose": "Choose file",
+      "selected": "Selected: {{name}}",
+      "urlLabel": "Video link",
+      "urlHint": "Use a private or unlisted link from your video host."
+    },
+    "delete": {
+      "title": "Delete this video?",
+      "description": "“{{name}}” will be removed from the course. Trainee progress for this video is discarded.",
+      "confirm": "Delete video"
+    },
+    "toast": {
+      "created": "Video added",
+      "updated": "Video updated",
+      "deleted": "Video deleted",
+      "reordered": "Order updated",
+      "published": "Video published",
+      "unpublished": "Video moved to draft"
+    }
+  },
+  "questions": {
+    "title": "Quiz question bank",
+    "description": "Single-answer multiple-choice questions. Each attempt draws from the active questions.",
+    "create": "Add question",
+    "createTitle": "Add question",
+    "editTitle": "Edit question",
+    "dialogDescription": "Write the question and four options in both languages, then mark the one correct answer.",
+    "searchPlaceholder": "Search questions",
+    "results": "{{count}} questions",
+    "activeSummary": "{{active}} active of {{total}}",
+    "empty": "No questions yet. Add questions to build the quiz.",
+    "all": "All questions",
+    "activeOnly": "Active",
+    "inactiveOnly": "Inactive",
+    "correctAnswer": "Correct answer",
+    "show": "Show",
+    "hide": "Hide",
+    "options": "Options",
+    "correctOption": "Correct",
+    "markCorrect": "Mark option {{n}} as correct",
+    "activeHint": "Inactive questions are never drawn into new attempts.",
+    "toggleActive": "Toggle active for this question",
+    "shortage": "Only {{active}} active questions, but the quiz draws {{count}}. New attempts cannot start until you activate more questions or lower the question count.",
+    "columns": {
+      "question": "Question",
+      "answer": "Correct answer",
+      "active": "Active"
+    },
+    "toast": {
+      "created": "Question added",
+      "updated": "Question updated",
+      "activated": "Question activated",
+      "deactivated": "Question deactivated"
+    }
+  },
+  "config": {
+    "title": "Quiz configuration",
+    "description": "Rules applied to every new quiz attempt.",
+    "notice": "Changes apply only to attempts started after saving. Attempts in progress keep the rules they started with.",
+    "readOnly": "You can view the configuration but your role can't change it.",
+    "settings": "Settings",
+    "questionCount": "Questions per attempt",
+    "questionCountHint": "{{count}} active questions available.",
+    "passThreshold": "Pass threshold (%)",
+    "passThresholdHint": "Score needed to qualify, e.g. 70% = 7 of 10.",
+    "maxAttempts": "Maximum attempts",
+    "maxAttemptsHint": "Per applicant.",
+    "timeLimit": "Time limit (minutes)",
+    "timeLimitHint": "The attempt is finalized automatically when time runs out.",
+    "currentVersion": "Current version: v{{version}}",
+    "reset": "Discard changes",
+    "confirmTitle": "Save quiz configuration?",
+    "confirmDescription": "This creates version {{version}}. Only attempts started after saving use the new rules.",
+    "confirmLabel": "Save configuration",
+    "saved": "Configuration saved as version {{version}}",
+    "historyTitle": "Version history",
+    "historyEmpty": "No changes recorded yet.",
+    "initial": "Initial value",
+    "change": "{{field}}: {{from}} → {{to}}",
+    "set": "{{field}}: {{to}}",
+    "columns": {
+      "version": "Version",
+      "changedBy": "Changed by",
+      "changedAt": "When",
+      "changes": "What changed"
+    }
+  },
+  "attempts": {
+    "title": "Attempts & results",
+    "description": "Quiz attempts by applicants and the agents who qualified.",
+    "tabs": {
+      "attempts": "Attempts",
+      "qualifications": "Qualification records"
+    },
+    "stats": {
+      "total": "Total attempts",
+      "passRate": "Pass rate",
+      "qualified": "Qualified agents",
+      "expired": "Expired attempts"
+    },
+    "searchPlaceholder": "Search applicant",
+    "results": "{{count}} attempts",
+    "allResults": "All results",
+    "passed": "Passed",
+    "failed": "Failed",
+    "submitted": "Submitted",
+    "expired": "Expired",
+    "empty": "No quiz attempts yet.",
+    "qualificationsEmpty": "No qualified agents yet.",
+    "score": "{{correct}}/{{total}}",
+    "columns": {
+      "applicant": "Applicant",
+      "attempt": "Attempt",
+      "started": "Started",
+      "ended": "Ended",
+      "score": "Score",
+      "result": "Result",
+      "duration": "Duration",
+      "qualifiedAt": "Qualified on",
+      "attemptsUsed": "Attempts used",
+      "bestScore": "Best score"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "breadcrumbs": {
+    "recruitment": "Recruitment"
+  },
+  "stages": {
+    "phone_pending": "Phone pending",
+    "identity_pending": "Identity pending",
+    "identity_processing": "Identity processing",
+    "identity_review": "Identity review",
+    "identity_action_required": "Identity action required",
+    "identity_approved": "Identity approved",
+    "interview_pending": "Interview pending",
+    "interview_submitted": "Interview submitted",
+    "training": "Training",
+    "quiz_eligible": "Quiz eligible",
+    "qualified": "Qualified",
+    "rejected": "Rejected"
+  },
+  "ocr": {
+    "match": "Match",
+    "mismatch": "Mismatch",
+    "low_confidence": "Low confidence",
+    "failed": "OCR failed"
+  },
+  "identityStatus": {
+    "pending": "Pending review",
+    "action_required": "Action required",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "interviewStatus": {
+    "pending": "Pending review",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "reopened": "Reopened"
+  },
+  "decisionValue": {
+    "approved": "Approved",
+    "accepted": "Accepted",
+    "action_required": "Action required",
+    "rejected": "Rejected",
+    "reopened": "Reopened"
+  },
+  "decisionKind": {
+    "identity": "Identity",
+    "interview": "Interview"
+  },
+  "actors": {
+    "applicant": "Applicant",
+    "system": "System"
+  },
+  "notFound": {
+    "title": "Record not found",
+    "body": "This record doesn't exist or is no longer available."
+  },
+  "columns": {
+    "applicant": "Applicant",
+    "phone": "Phone",
+    "stage": "Stage",
+    "registered": "Registered",
+    "lastActivity": "Last activity",
+    "attempt": "Attempt",
+    "finished": "Finished",
+    "score": "Score",
+    "result": "Result",
+    "kind": "Type",
+    "decision": "Decision",
+    "publicReason": "Reason shown to applicant",
+    "decidedBy": "Decided by",
+    "decidedAt": "Decided at",
+    "submitted": "Submitted",
+    "ocrResult": "OCR result",
+    "confidence": "Confidence",
+    "nationalId": "National ID",
+    "status": "Status",
+    "duration": "Duration",
+    "identity": "Identity"
+  },
+  "fields": {
+    "status": "Status",
+    "nationalId": "National ID",
+    "ocrResult": "OCR result",
+    "confidence": "Confidence",
+    "submitted": "Submitted",
+    "decidedBy": "Decided by",
+    "applicantId": "Applicant ID",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "registered": "Registered",
+    "stage": "Stage"
+  },
+  "filters": {
+    "stage": "Filter by stage",
+    "allStages": "All stages",
+    "sort": "Sort order",
+    "newest": "Newest first",
+    "oldest": "Oldest first",
+    "results": "Results: {{count}}",
+    "kind": "Filter by type",
+    "allKinds": "All types",
+    "decision": "Filter by decision",
+    "allDecisions": "All decisions",
+    "decidedBy": "Filter by reviewer",
+    "anyReviewer": "Any reviewer",
+    "ocr": "Filter by OCR result",
+    "allOcr": "All OCR results"
+  },
+  "applicants": {
+    "title": "Applicants",
+    "description": "{{count}} applicants across every recruitment stage.",
+    "searchPlaceholder": "Search by name, email or phone",
+    "empty": "No applicants yet",
+    "backToList": "Back to applicants"
+  },
+  "detail": {
+    "openIdentityReview": "Identity review",
+    "openInterview": "Interview",
+    "registeredOn": "Registered {{date}}",
+    "lastActivity": "Last activity {{date}}",
+    "identity": "Identity verification",
+    "viewReview": "View review",
+    "noIdentity": "No identity documents submitted yet.",
+    "interview": "Video interview",
+    "viewInterview": "View interview",
+    "submissionNo": "Submission {{n}}",
+    "noInterview": "No interview submitted yet.",
+    "training": "Training",
+    "videosCompleted": "{{done}} of {{total}} videos completed",
+    "videosShort": "{{done}}/{{total}} videos",
+    "noTraining": "Training hasn't started yet.",
+    "quiz": "Qualification quiz",
+    "noAttempts": "No quiz attempts yet.",
+    "profile": "Profile",
+    "timeline": "Stage history",
+    "decisions": "Decisions",
+    "noDecisions": "No decisions recorded yet."
+  },
+  "quiz": {
+    "pass": "Pass",
+    "fail": "Fail"
+  },
+  "decisions": {
+    "title": "Decision log",
+    "description": "Every identity and interview decision, newest first.",
+    "appendOnly": "The decision log is append-only. Entries can't be edited or deleted.",
+    "empty": "No decisions recorded yet"
+  },
+  "identity": {
+    "title": "Identity reviews",
+    "description": "Compare the entered national ID with the OCR result and the uploaded documents.",
+    "searchPlaceholder": "Search by name or email",
+    "backToQueue": "Back to review queue",
+    "tabs": {
+      "pending": "Pending",
+      "action_required": "Action required",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "empty": {
+      "pending": "No identity reviews waiting. You're all caught up.",
+      "action_required": "No applicants are waiting to resubmit documents",
+      "approved": "No approved identity reviews yet",
+      "rejected": "No rejected identity reviews"
+    }
+  },
+  "review": {
+    "title": "Identity review: {{name}}",
+    "numberCheck": "National ID check",
+    "numbersMatch": "Numbers match",
+    "numbersDiffer": "Numbers differ",
+    "cannotCompare": "Can't compare",
+    "enteredNumber": "Entered by applicant",
+    "ocrNumber": "Read from ID card (OCR)",
+    "notExtracted": "No number could be extracted.",
+    "providerStatus": "OCR provider",
+    "provider": {
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "ocrDisclaimer": "OCR is a helper, not a decision. Always check the documents yourself before deciding.",
+    "documents": "Documents",
+    "privateStorage": "Private storage",
+    "doc": {
+      "front": "ID card (front)",
+      "back": "ID card (back)",
+      "selfie": "Personal photo"
+    },
+    "viewFull": "View full size",
+    "signedUrlNote": "Opened through a short-lived signed link that expires in 5 minutes.",
+    "applicant": "Applicant",
+    "submissionNo": "Submission no.",
+    "openProfile": "Open applicant profile",
+    "decision": "Decision",
+    "choice": {
+      "approved": "Approve identity",
+      "action_required": "Request resubmission",
+      "rejected": "Reject application"
+    },
+    "publicReason": "Reason shown to applicant",
+    "publicReasonHint": "The applicant will see this message. At least 10 characters.",
+    "reasonRequired": "Enter a reason of at least 10 characters.",
+    "rejectPlaceholder": "e.g. The ID number you entered does not match the submitted document.",
+    "resubmitPlaceholder": "e.g. The back of your ID card is blurry. Please retake the photo in good lighting.",
+    "internalNote": "Internal note",
+    "internalNoteHint": "Visible to staff only. Never shown to the applicant.",
+    "internalNoteHidden": "Internal note (hidden from applicant)",
+    "submitDecision": "Submit decision",
+    "auditNote": "This decision is recorded in the audit log.",
+    "decidedBy": "Decided by {{name}} on {{date}}",
+    "notOpen": "This review is no longer open for decisions.",
+    "noPermission": "You don't have permission to decide identity reviews.",
+    "confirm": {
+      "approved": {
+        "title": "Approve identity?",
+        "body": "{{name}} will move on to the video interview."
+      },
+      "action_required": {
+        "title": "Request resubmission?",
+        "body": "{{name}} will be asked to upload their documents again."
+      },
+      "rejected": {
+        "title": "Reject application?",
+        "body": "{{name}}'s application will be closed. This can't be undone."
+      }
+    },
+    "toast": {
+      "approved": "Identity approved for {{name}}",
+      "action_required": "Resubmission requested from {{name}}",
+      "rejected": "Application rejected for {{name}}"
+    }
+  },
+  "interviews": {
+    "title": "Interviews",
+    "description": "Watch submitted video interviews and accept, reject or reopen them.",
+    "backToList": "Back to interviews",
+    "tabs": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "reopened": "Reopened"
+    },
+    "empty": {
+      "pending": "No interviews waiting for review. You're all caught up.",
+      "accepted": "No accepted interviews yet",
+      "rejected": "No rejected interviews",
+      "reopened": "No reopened interviews"
+    }
+  },
+  "interviewReview": {
+    "title": "Interview: {{name}}",
+    "play": "Play recording",
+    "pause": "Pause recording",
+    "signedUrl": "Signed link",
+    "prototypeNote": "Prototype: video playback is simulated. The real app streams the recording through a short-lived signed link.",
+    "history": "Review history",
+    "action": {
+      "submitted": "Interview submitted",
+      "accepted": "Interview accepted",
+      "rejected": "Interview rejected",
+      "reopened": "Interview reopened"
+    },
+    "identityStatus": "Identity verification",
+    "closed": "This interview has already been reviewed.",
+    "accept": "Accept interview",
+    "reject": "Reject interview",
+    "reopen": "Reopen for re-recording",
+    "optionalMessage": "Message to applicant (optional)",
+    "reopenHint": "Tell the applicant why they need to record again. At least 10 characters.",
+    "confirm": {
+      "accepted": {
+        "title": "Accept interview?",
+        "body": "{{name}} will move on to training.",
+        "cta": "Accept"
+      },
+      "rejected": {
+        "title": "Reject interview?",
+        "body": "{{name}}'s application will be closed. This can't be undone.",
+        "cta": "Reject"
+      },
+      "reopened": {
+        "title": "Reopen interview?",
+        "body": "{{name}} will be asked to record the interview again.",
+        "cta": "Reopen"
+      }
+    },
+    "toast": {
+      "accepted": "Interview accepted for {{name}}",
+      "rejected": "Interview rejected for {{name}}",
+      "reopened": "Interview reopened for {{name}}"
+    }
+  }
+}

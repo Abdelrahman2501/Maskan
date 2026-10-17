@@ -1,0 +1,54 @@
+{
+  "brand": "ElSakka",
+  "tagline": "Real estate agency",
+  "actions": {
+    "back": "Back",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit",
+    "retry": "Try again",
+    "done": "Done",
+    "close": "Close",
+    "seeAll": "See all",
+    "edit": "Edit",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "logout": "Log out"
+  },
+  "language": {
+    "title": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "switchTo": "العربية"
+  },
+  "prototype": {
+    "label": "Prototype · sample data",
+    "menuTitle": "Prototype menu",
+    "menuSubtitle": "Jump to any stage of the journey. Everything here uses sample data; nothing is sent anywhere.",
+    "jumpTo": "Jump to stage",
+    "reset": "Reset prototype",
+    "stages": {
+      "guest": "Welcome (signed out)",
+      "phone_pending": "Phone verification",
+      "identity_pending": "Identity documents",
+      "identity_processing": "Identity processing",
+      "identity_review": "Identity in manual review",
+      "identity_action_required": "Identity action required",
+      "interview_pending": "Interview",
+      "interview_submitted": "Interview submitted",
+      "rejected": "Application rejected",
+      "training": "Training",
+      "quiz_eligible": "Quiz available",
+      "quiz_exhausted": "Quiz attempts used up",
+      "qualified": "Qualified agent"
+    }
+  },
+  "status": {
+    "loading": "Loading…",
+    "error": "Something went wrong. Please try again.",
+    "offline": "You're offline. Check your connection."
+  },
+  "currencyNote": "Prices are shown in the currency set by the developer. No automatic conversion."
+}

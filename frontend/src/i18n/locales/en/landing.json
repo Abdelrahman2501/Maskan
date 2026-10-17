@@ -1,0 +1,29 @@
+{
+  "nav": { "staffLogin": "Staff sign in" },
+  "badge": "Now recruiting agents in New Cairo",
+  "title": "Build your real estate career with a professional agency",
+  "body": "ElSakka is a virtual real estate agency. We verify, train, and qualify our agents, then give them the property information and leads they need to close with confidence.",
+  "download": "Get the ElSakka app",
+  "appStore": "Download on the App Store",
+  "googlePlay": "Get it on Google Play",
+  "soon": "Coming soon to the stores",
+  "benefits": {
+    "b1": "Curated developments with up-to-date specifications and prices",
+    "b2": "Qualified leads assigned directly to you",
+    "b3": "Structured training from experienced professionals"
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "A clear, four-step path from application to your first assigned lead.",
+    "s1": { "title": "Verify your identity", "body": "Confirm your phone over WhatsApp and submit your national ID securely." },
+    "s2": { "title": "Record a short interview", "body": "Introduce yourself in a one-minute video, recorded right in the app." },
+    "s3": { "title": "Train and qualify", "body": "Complete focused training courses and pass the qualification quiz." },
+    "s4": { "title": "Start selling", "body": "Access premium New Cairo developments, current pricing, and leads assigned to you." }
+  },
+  "cta": {
+    "title": "Ready to join ElSakka?",
+    "body": "Download the app and apply in about ten minutes.",
+    "button": "Download the app"
+  },
+  "footer": "New Cairo, Egypt"
+}

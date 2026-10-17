@@ -1,0 +1,180 @@
+{
+  "identity": {
+    "title": "Verify your identity",
+    "subtitle": "We need your national ID and a clear photo of you to confirm who you are. This takes about two minutes.",
+    "idNumber": "National ID number",
+    "idNumberHint": "The 14-digit number printed on the front of your card",
+    "idNumberPlaceholder": "e.g. 29001011234567",
+    "errors": {
+      "idNumber": "Your national ID number must be exactly 14 digits.",
+      "missingCaptures": "Please capture all three photos before submitting."
+    },
+    "documentsTitle": "Photos",
+    "documentsSubtitle": "Make sure all text is sharp, there is no glare, and the whole card is inside the frame.",
+    "tiles": {
+      "front": {
+        "title": "ID card — front",
+        "hint": "The side with your photo"
+      },
+      "back": {
+        "title": "ID card — back",
+        "hint": "The side with your address"
+      },
+      "selfie": {
+        "title": "Personal photo",
+        "hint": "A clear selfie, face fully visible"
+      }
+    },
+    "tap": "Tap to capture",
+    "capturing": "Capturing…",
+    "captured": "Captured",
+    "retake": "Retake",
+    "formats": "Accepted formats: JPEG, PNG or WebP · up to 8 MB per photo",
+    "privacyTitle": "Your documents stay private",
+    "privacyBody": "Documents are stored privately and encrypted. Only authorized ElSakka reviewers can see them, and only to verify your identity.",
+    "progress": "{{count}} of 3 photos captured",
+    "submit": "Submit for verification"
+  },
+  "identityStatus": {
+    "title": "Identity verification",
+    "processing": {
+      "badge": "Processing",
+      "title": "Checking your documents",
+      "body": "We're automatically reading your ID and matching it against the number you entered. This usually takes a few minutes."
+    },
+    "review": {
+      "badge": "Pending review",
+      "title": "Pending manual review",
+      "body": "A member of our team will review your documents personally, usually within one business day. We'll notify you on WhatsApp as soon as there's an update."
+    },
+    "actionRequired": {
+      "badge": "Action required",
+      "title": "Please resubmit your documents",
+      "body": "Our reviewer couldn't verify your identity from the photos you sent.",
+      "reasonLabel": "Reason",
+      "reason": "The back of your ID is blurry. Please retake it in good light, holding the camera steady.",
+      "resubmit": "Resubmit documents"
+    },
+    "approved": {
+      "badge": "Approved",
+      "title": "Identity verified",
+      "body": "Thank you — your identity has been confirmed. The next step is a short video interview.",
+      "continue": "Continue to interview"
+    },
+    "timeline": {
+      "title": "Progress",
+      "submitted": "Documents submitted",
+      "check": "Automatic check",
+      "review": "Review",
+      "approved": "Approved",
+      "done": "Done",
+      "inProgress": "In progress",
+      "waiting": "Waiting",
+      "skipped": "Not needed",
+      "attention": "Needs your attention"
+    },
+    "notify": "You can close the app — we'll message you on WhatsApp when the status changes.",
+    "simulate": {
+      "title": "Simulate result",
+      "approve": "OCR match → approve",
+      "review": "Send to manual review",
+      "resubmit": "Request resubmission"
+    }
+  },
+  "interview": {
+    "title": "Video interview",
+    "subtitle": "Record a short video introducing yourself. It helps our recruiters get to know you beyond your application.",
+    "duration": "About 1 minute · maximum 90 seconds",
+    "promptsTitle": "What to talk about",
+    "prompts": {
+      "name": "Your name and where you live",
+      "background": "Your education and work background",
+      "why": "Why you want to work in real estate",
+      "areas": "The areas and compounds you know well"
+    },
+    "referenceTitle": "Watch an example",
+    "referenceBody": "A short sample interview from one of our agents.",
+    "tipsTitle": "Tips for a great recording",
+    "tips": {
+      "light": "Sit facing a window or a good light source",
+      "quiet": "Choose a quiet place without background noise",
+      "camera": "Look at the camera and speak naturally"
+    },
+    "permissionTitle": "Camera and microphone access",
+    "permissionBody": "We'll ask for access to your camera and microphone to record your interview. The video is used only for your application.",
+    "start": "I'm ready — start recording",
+    "simulateDenied": "Prototype: simulate permission denied",
+    "recorder": {
+      "ready": "Position your face inside the frame",
+      "recording": "Recording",
+      "tapToStart": "Tap to start recording",
+      "tapToStop": "Tap to stop",
+      "autoStop": "Recording stops automatically at 90 seconds.",
+      "start": "Start recording",
+      "stop": "Stop recording",
+      "close": "Close recorder"
+    },
+    "preview": {
+      "title": "Review your recording",
+      "body": "Watch your video before submitting. You can record again if you're not happy with it.",
+      "duration": "Duration",
+      "tooShort": "Your recording is quite short. Aim for around one minute.",
+      "retake": "Retake",
+      "submit": "Submit interview"
+    },
+    "uploading": {
+      "title": "Uploading your interview",
+      "body": "Please keep the app open until the upload is complete.",
+      "percent": "{{percent}}%"
+    },
+    "denied": {
+      "title": "Camera access is turned off",
+      "body": "To record your interview, ElSakka needs access to your camera and microphone.",
+      "stepsTitle": "How to enable it",
+      "step1": "Open your phone's Settings",
+      "step2": "Go to Apps → ElSakka → Permissions",
+      "step3": "Allow Camera and Microphone, then come back here",
+      "openSettings": "Open settings",
+      "tryAgain": "I've enabled it — try again"
+    }
+  },
+  "submitted": {
+    "badge": "Pending review",
+    "title": "Interview submitted",
+    "body": "Thank you for recording your interview. Our recruitment team will review it carefully.",
+    "submittedAt": "Submitted",
+    "nextTitle": "What happens next",
+    "next": {
+      "review": "A recruiter watches your interview and reviews your application.",
+      "decision": "You'll receive a decision, usually within 2–3 business days.",
+      "training": "If accepted, you'll get immediate access to the ElSakka training program."
+    },
+    "notify": "We'll notify you on WhatsApp and in the app as soon as a decision is made.",
+    "simulate": {
+      "title": "Simulate recruiter decision",
+      "accept": "Accept applicant",
+      "reject": "Reject applicant"
+    }
+  },
+  "decision": {
+    "accepted": {
+      "eyebrow": "Congratulations, {{name}}",
+      "title": "You passed the first step",
+      "body": "Our recruitment team has approved your application. You're now invited to the ElSakka training program.",
+      "nextTitle": "Up next",
+      "next": {
+        "courses": "Watch short training courses at your own pace",
+        "quiz": "Pass the final quiz to qualify",
+        "agent": "Start working as a qualified ElSakka agent"
+      },
+      "continue": "Continue to training"
+    },
+    "rejected": {
+      "title": "Thank you for applying",
+      "body": "We appreciate the time you invested in your application. After careful review, you are not eligible to continue at this time.",
+      "note": "This decision reflects our current requirements and is not a judgment of your abilities. We wish you every success.",
+      "contact": "If you have questions, contact us at careers@elsakka.example.",
+      "home": "Back to home"
+    }
+  }
+}

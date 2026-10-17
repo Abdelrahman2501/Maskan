@@ -1,0 +1,293 @@
+{
+  "breadcrumbs": {
+    "recruitment": "التوظيف"
+  },
+  "stages": {
+    "phone_pending": "بانتظار تأكيد الهاتف",
+    "identity_pending": "بانتظار التحقق من الهوية",
+    "identity_processing": "جارٍ معالجة الهوية",
+    "identity_review": "مراجعة الهوية",
+    "identity_action_required": "الهوية تتطلب إجراءً",
+    "identity_approved": "تم اعتماد الهوية",
+    "interview_pending": "بانتظار المقابلة",
+    "interview_submitted": "تم إرسال المقابلة",
+    "training": "التدريب",
+    "quiz_eligible": "مؤهل للاختبار",
+    "qualified": "مؤهل",
+    "rejected": "مرفوض"
+  },
+  "ocr": {
+    "match": "مطابق",
+    "mismatch": "غير مطابق",
+    "low_confidence": "ثقة منخفضة",
+    "failed": "تعذّر التعرف الضوئي"
+  },
+  "identityStatus": {
+    "pending": "بانتظار المراجعة",
+    "action_required": "يتطلب إجراءً",
+    "approved": "معتمد",
+    "rejected": "مرفوض"
+  },
+  "interviewStatus": {
+    "pending": "بانتظار المراجعة",
+    "accepted": "مقبولة",
+    "rejected": "مرفوضة",
+    "reopened": "أُعيد فتحها"
+  },
+  "decisionValue": {
+    "approved": "معتمد",
+    "accepted": "مقبول",
+    "action_required": "يتطلب إجراءً",
+    "rejected": "مرفوض",
+    "reopened": "أُعيد فتحه"
+  },
+  "decisionKind": {
+    "identity": "الهوية",
+    "interview": "المقابلة"
+  },
+  "actors": {
+    "applicant": "المتقدم",
+    "system": "النظام"
+  },
+  "notFound": {
+    "title": "السجل غير موجود",
+    "body": "هذا السجل غير موجود أو لم يعد متاحًا."
+  },
+  "columns": {
+    "applicant": "المتقدم",
+    "phone": "الهاتف",
+    "stage": "المرحلة",
+    "registered": "تاريخ التسجيل",
+    "lastActivity": "آخر نشاط",
+    "attempt": "المحاولة",
+    "finished": "تاريخ الانتهاء",
+    "score": "الدرجة",
+    "result": "النتيجة",
+    "kind": "النوع",
+    "decision": "القرار",
+    "publicReason": "السبب الظاهر للمتقدم",
+    "decidedBy": "صاحب القرار",
+    "decidedAt": "تاريخ القرار",
+    "submitted": "تاريخ الإرسال",
+    "ocrResult": "نتيجة التعرف الضوئي",
+    "confidence": "نسبة الثقة",
+    "nationalId": "الرقم القومي",
+    "status": "الحالة",
+    "duration": "المدة",
+    "identity": "الهوية"
+  },
+  "fields": {
+    "status": "الحالة",
+    "nationalId": "الرقم القومي",
+    "ocrResult": "نتيجة التعرف الضوئي",
+    "confidence": "نسبة الثقة",
+    "submitted": "تاريخ الإرسال",
+    "decidedBy": "صاحب القرار",
+    "applicantId": "رقم المتقدم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "city": "المدينة",
+    "registered": "تاريخ التسجيل",
+    "stage": "المرحلة"
+  },
+  "filters": {
+    "stage": "التصفية حسب المرحلة",
+    "allStages": "كل المراحل",
+    "sort": "ترتيب العرض",
+    "newest": "الأحدث أولًا",
+    "oldest": "الأقدم أولًا",
+    "results": "النتائج: {{count}}",
+    "kind": "التصفية حسب النوع",
+    "allKinds": "كل الأنواع",
+    "decision": "التصفية حسب القرار",
+    "allDecisions": "كل القرارات",
+    "decidedBy": "التصفية حسب المراجع",
+    "anyReviewer": "أي مراجع",
+    "ocr": "التصفية حسب نتيجة التعرف الضوئي",
+    "allOcr": "كل نتائج التعرف الضوئي"
+  },
+  "applicants": {
+    "title": "المتقدمون",
+    "description": "عدد المتقدمين: {{count}} في جميع مراحل التوظيف.",
+    "searchPlaceholder": "ابحث بالاسم أو البريد الإلكتروني أو الهاتف",
+    "empty": "لا يوجد متقدمون بعد",
+    "backToList": "العودة إلى المتقدمين"
+  },
+  "detail": {
+    "openIdentityReview": "مراجعة الهوية",
+    "openInterview": "المقابلة",
+    "registeredOn": "سجّل في {{date}}",
+    "lastActivity": "آخر نشاط {{date}}",
+    "identity": "التحقق من الهوية",
+    "viewReview": "عرض المراجعة",
+    "noIdentity": "لم تُرفع مستندات الهوية بعد.",
+    "interview": "مقابلة الفيديو",
+    "viewInterview": "عرض المقابلة",
+    "submissionNo": "الإرسال رقم {{n}}",
+    "noInterview": "لم تُرسل المقابلة بعد.",
+    "training": "التدريب",
+    "videosCompleted": "اكتمل {{done}} من {{total}} فيديو",
+    "videosShort": "{{done}}/{{total}} فيديو",
+    "noTraining": "لم يبدأ التدريب بعد.",
+    "quiz": "اختبار التأهيل",
+    "noAttempts": "لا توجد محاولات للاختبار بعد.",
+    "profile": "الملف الشخصي",
+    "timeline": "سجل المراحل",
+    "decisions": "القرارات",
+    "noDecisions": "لم تُسجَّل أي قرارات بعد."
+  },
+  "quiz": {
+    "pass": "ناجح",
+    "fail": "راسب"
+  },
+  "decisions": {
+    "title": "سجل القرارات",
+    "description": "جميع قرارات الهوية والمقابلات، الأحدث أولًا.",
+    "appendOnly": "سجل القرارات للإضافة فقط، ولا يمكن تعديل الإدخالات أو حذفها.",
+    "empty": "لم تُسجَّل أي قرارات بعد"
+  },
+  "identity": {
+    "title": "مراجعات الهوية",
+    "description": "قارن الرقم القومي المُدخل بنتيجة التعرف الضوئي والمستندات المرفوعة.",
+    "searchPlaceholder": "ابحث بالاسم أو البريد الإلكتروني",
+    "backToQueue": "العودة إلى قائمة المراجعة",
+    "tabs": {
+      "pending": "قيد الانتظار",
+      "action_required": "يتطلب إجراءً",
+      "approved": "معتمدة",
+      "rejected": "مرفوضة"
+    },
+    "empty": {
+      "pending": "لا توجد مراجعات هوية معلّقة. أنجزت كل شيء.",
+      "action_required": "لا يوجد متقدمون بانتظار إعادة رفع المستندات",
+      "approved": "لا توجد مراجعات هوية معتمدة بعد",
+      "rejected": "لا توجد مراجعات هوية مرفوضة"
+    }
+  },
+  "review": {
+    "title": "مراجعة الهوية: {{name}}",
+    "numberCheck": "التحقق من الرقم القومي",
+    "numbersMatch": "الرقمان متطابقان",
+    "numbersDiffer": "الرقمان مختلفان",
+    "cannotCompare": "تتعذّر المقارنة",
+    "enteredNumber": "الرقم الذي أدخله المتقدم",
+    "ocrNumber": "الرقم المقروء من البطاقة (تعرف ضوئي)",
+    "notExtracted": "تعذّر استخراج أي رقم.",
+    "providerStatus": "مزوّد التعرف الضوئي",
+    "provider": {
+      "completed": "مكتمل",
+      "failed": "فشل"
+    },
+    "ocrDisclaimer": "التعرف الضوئي أداة مساعدة وليس قرارًا. راجع المستندات بنفسك دائمًا قبل اتخاذ القرار.",
+    "documents": "المستندات",
+    "privateStorage": "تخزين خاص",
+    "doc": {
+      "front": "البطاقة (الوجه)",
+      "back": "البطاقة (الظهر)",
+      "selfie": "الصورة الشخصية"
+    },
+    "viewFull": "عرض بالحجم الكامل",
+    "signedUrlNote": "فُتح عبر رابط موقَّع قصير الصلاحية ينتهي خلال 5 دقائق.",
+    "applicant": "المتقدم",
+    "submissionNo": "رقم الإرسال",
+    "openProfile": "فتح ملف المتقدم",
+    "decision": "القرار",
+    "choice": {
+      "approved": "اعتماد الهوية",
+      "action_required": "طلب إعادة الرفع",
+      "rejected": "رفض الطلب"
+    },
+    "publicReason": "السبب الظاهر للمتقدم",
+    "publicReasonHint": "سيرى المتقدم هذه الرسالة. 10 أحرف على الأقل.",
+    "reasonRequired": "أدخل سببًا لا يقل عن 10 أحرف.",
+    "rejectPlaceholder": "مثال: رقم البطاقة الذي أدخلته لا يطابق المستند المرفوع.",
+    "resubmitPlaceholder": "مثال: صورة ظهر البطاقة غير واضحة. يرجى إعادة التصوير في إضاءة جيدة.",
+    "internalNote": "ملاحظة داخلية",
+    "internalNoteHint": "تظهر للموظفين فقط ولا تُعرض على المتقدم أبدًا.",
+    "internalNoteHidden": "ملاحظة داخلية (مخفية عن المتقدم)",
+    "submitDecision": "إرسال القرار",
+    "auditNote": "يُسجَّل هذا القرار في سجل التدقيق.",
+    "decidedBy": "قرار {{name}} بتاريخ {{date}}",
+    "notOpen": "لم تعد هذه المراجعة متاحة لاتخاذ قرار.",
+    "noPermission": "ليست لديك صلاحية البت في مراجعات الهوية.",
+    "confirm": {
+      "approved": {
+        "title": "اعتماد الهوية؟",
+        "body": "سينتقل {{name}} إلى مرحلة مقابلة الفيديو."
+      },
+      "action_required": {
+        "title": "طلب إعادة الرفع؟",
+        "body": "سيُطلب من {{name}} رفع المستندات مرة أخرى."
+      },
+      "rejected": {
+        "title": "رفض الطلب؟",
+        "body": "سيُغلق طلب {{name}}. لا يمكن التراجع عن هذا الإجراء."
+      }
+    },
+    "toast": {
+      "approved": "تم اعتماد هوية {{name}}",
+      "action_required": "تم طلب إعادة الرفع من {{name}}",
+      "rejected": "تم رفض طلب {{name}}"
+    }
+  },
+  "interviews": {
+    "title": "المقابلات",
+    "description": "شاهد مقابلات الفيديو المرسلة واقبلها أو ارفضها أو أعد فتحها.",
+    "backToList": "العودة إلى المقابلات",
+    "tabs": {
+      "pending": "قيد الانتظار",
+      "accepted": "مقبولة",
+      "rejected": "مرفوضة",
+      "reopened": "أُعيد فتحها"
+    },
+    "empty": {
+      "pending": "لا توجد مقابلات بانتظار المراجعة. أنجزت كل شيء.",
+      "accepted": "لا توجد مقابلات مقبولة بعد",
+      "rejected": "لا توجد مقابلات مرفوضة",
+      "reopened": "لا توجد مقابلات أُعيد فتحها"
+    }
+  },
+  "interviewReview": {
+    "title": "مقابلة: {{name}}",
+    "play": "تشغيل التسجيل",
+    "pause": "إيقاف التسجيل مؤقتًا",
+    "signedUrl": "رابط موقَّع",
+    "prototypeNote": "نموذج أولي: تشغيل الفيديو محاكاة. يبث التطبيق الفعلي التسجيل عبر رابط موقَّع قصير الصلاحية.",
+    "history": "سجل المراجعة",
+    "action": {
+      "submitted": "تم إرسال المقابلة",
+      "accepted": "تم قبول المقابلة",
+      "rejected": "تم رفض المقابلة",
+      "reopened": "أُعيد فتح المقابلة"
+    },
+    "identityStatus": "التحقق من الهوية",
+    "closed": "تمت مراجعة هذه المقابلة بالفعل.",
+    "accept": "قبول المقابلة",
+    "reject": "رفض المقابلة",
+    "reopen": "إعادة الفتح لإعادة التسجيل",
+    "optionalMessage": "رسالة إلى المتقدم (اختيارية)",
+    "reopenHint": "أخبر المتقدم بسبب الحاجة إلى إعادة التسجيل. 10 أحرف على الأقل.",
+    "confirm": {
+      "accepted": {
+        "title": "قبول المقابلة؟",
+        "body": "سينتقل {{name}} إلى مرحلة التدريب.",
+        "cta": "قبول"
+      },
+      "rejected": {
+        "title": "رفض المقابلة؟",
+        "body": "سيُغلق طلب {{name}}. لا يمكن التراجع عن هذا الإجراء.",
+        "cta": "رفض"
+      },
+      "reopened": {
+        "title": "إعادة فتح المقابلة؟",
+        "body": "سيُطلب من {{name}} تسجيل المقابلة مرة أخرى.",
+        "cta": "إعادة الفتح"
+      }
+    },
+    "toast": {
+      "accepted": "تم قبول مقابلة {{name}}",
+      "rejected": "تم رفض مقابلة {{name}}",
+      "reopened": "أُعيد فتح مقابلة {{name}}"
+    }
+  }
+}
