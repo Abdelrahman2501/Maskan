@@ -32,3 +32,6 @@ Thumbs.db
 # Local uploads / scratch
 /tmp/
 *.log
+
+# Expo local state (e.g. if expo is started in the wrong folder)
+.expo/
