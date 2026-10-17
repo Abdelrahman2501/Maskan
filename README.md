@@ -2,6 +2,7 @@
 
 Maskan is a virtual real estate agency platform for Egypt. It recruits, verifies, trains, and qualifies real estate agents, then gives qualified agents a property catalogue and manually assigned leads.
 
+- **New here? Start with [`GETTING-STARTED.md`](GETTING-STARTED.md)** — what's built so far and how to run the web admin, the mobile app, and the backend.
 - **Specifications:** [`specs/`](specs/00-product-overview.md) (start with `00-product-overview.md`)
 - **Current status:** [`specs/implementation-status.md`](specs/implementation-status.md)
 - **Open business decisions:** [`specs/open-questions.md`](specs/open-questions.md)
