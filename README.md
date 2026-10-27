@@ -21,6 +21,8 @@ Maskan is a virtual real estate agency platform for Egypt. It recruits, verifies
 
 ## Local setup
 
+> **macOS / Linux:** the commands below use the Windows venv path (`.venv/Scripts/python`). Replace it with `.venv/bin/python`, or run `source .venv/bin/activate` once and then use plain `python`. On macOS install Python 3.12 with `brew install python@3.12` and create the venv with `python3.12 -m venv .venv` (a newer default `python3` may not be supported).
+
 ```bash
 # 1. Environment
 cp .env.example .env            # placeholders are fine for local development

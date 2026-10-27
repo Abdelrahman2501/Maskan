@@ -30,7 +30,7 @@ infra/      local infra helpers (Postgres init)
 
 ```bash
 docker compose up -d db                               # Postgres 16 on localhost:5433
-# backend (from backend/, venv at backend/.venv)
+# backend (from backend/, venv at backend/.venv; on macOS/Linux use .venv/bin/python instead of .venv/Scripts/python)
 .venv/Scripts/python -m uvicorn app.main:app --reload # API on :8000
 .venv/Scripts/python -m alembic upgrade head
 .venv/Scripts/python -m pytest -q                     # needs the db container

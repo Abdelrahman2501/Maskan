@@ -56,8 +56,8 @@ Maskan has **two apps** plus a small public website:
 
 Install these once:
 
-1. **Node.js 22+** — https://nodejs.org
-2. **Python 3.12+** — https://www.python.org (only needed for the backend)
+1. **Node.js 22+** — https://nodejs.org (Mac: `brew install node`)
+2. **Python 3.12+** — https://www.python.org (only needed for the backend; Mac: `brew install python@3.12`)
 3. **Docker Desktop** — https://www.docker.com/products/docker-desktop (only needed for the backend database)
 4. **Expo Go** app on your phone (only to try the mobile app on a real phone) — from the App Store / Google Play
 
@@ -118,6 +118,8 @@ npx expo start
 
 Only needed by developers working on the backend.
 
+> **Mac users:** use `.venv/bin/python` instead of `.venv/Scripts/python` (that path is for Windows). Install Python 3.12 with `brew install python@3.12` and create the venv with `python3.12 -m venv .venv`, since the default `python3` may be too new.
+
 ```bash
 # 1. Start the database (Docker Desktop must be running)
 cp .env.example .env
@@ -125,8 +127,8 @@ docker compose up -d db
 
 # 2. Install and run the server
 cd backend
-python -m venv .venv
-.venv/Scripts/python -m pip install -e ".[dev]"     # macOS/Linux: .venv/bin/python
+python -m venv .venv                                # Mac: python3.12 -m venv .venv
+.venv/Scripts/python -m pip install -e ".[dev]"     # Mac/Linux: .venv/bin/python
 .venv/Scripts/python -m alembic upgrade head
 .venv/Scripts/python -m uvicorn app.main:app --reload
 ```
@@ -164,7 +166,7 @@ cd mobile
 npx tsc --noEmit     # type check
 npx jest             # tests (incl. Arabic/English translation completeness)
 
-# Backend (database must be running)
+# Backend (database must be running; Mac/Linux: .venv/bin/python)
 cd backend
 .venv/Scripts/python -m pytest -q
 ```
